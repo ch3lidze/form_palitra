@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body{
+    transition: 0.5s ease;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-size: cover;
+    
+   font-weight: bold;
+   
+    text-transform: capitalize;
+}
+
+section{
+    height: 100vh;
+    background-image: url(Capture\ palitra.PNG);
+    filter: blur(25px);
+    
+    background-size: cover;
+    background-position: center;
+    
+  
+}
+
+.registration-form p{
+   border-radius: 5px;
+    background-color: rgb(112, 210, 240);
+  
+}
+
+
+.registration-form{
+    
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 90%;
+    
+}
+
+@media only screen and (max-width: 400px) {
+    .registration-form{
+        width: 90%;
+    }
+  }
+ 
+
+
+.registration-form h1{
+    margin: 40px 0;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgb(112, 210, 240);
+    border-radius: 5px;
+}
+
+.registration-form p {
+    font-size: 20px;
+    margin: 10px 0;
+}
+.registration-form input {
+    background-color: rgb(245, 245, 245);
+    width: 100%;
+    padding: 15px 10px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    
+}
+
+
+.registration-form button {
+  
+    
+   
+    text-transform: capitalize;
+    font-size: 18px ;
+    margin: 20px 0;
+    padding: 10px 10px;
+    background-color: rgb(245, 243, 243);
+    border: 0;
+    color: rgb(14, 77, 160);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.registration-form button:hover{color: red; background-color: aliceblue;}
+.registration-form button:active{
+    transform: scale(0.98);
+}
